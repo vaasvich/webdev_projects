@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* css for header */
+.header{
+    height:90px;
+    width:100%;
+    background-color:rgba(16,128,234,1);
+    display:flex;
+    justify-content:center;
+}
+
+.header_container{
+    justify-content:space-between;
+}
+
+.container{
+    width:90%;
+    /* background-color:red; */
+    display:flex;
+}
+
+.logo{
+    height:90px;
+    width:15%;
+    /* background-color:yellow; */
+    font-size: 35px;
+    font-family:segoe UI;
+    text-align:center;
+    font-weight:bold;
+    line-height: 90px;
+    color:white;
+}
+
+.nav{
+    height:90px;
+    width:35%;
+    /* background-color: green; */
+    display:flex;
+}
+
+.nav-item{
+    height:90px;
+    width:20%;
+    /* background-color:grey; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    line-height:90px;
+    color:white;
+    cursor:pointer;
+}
+
+.nav-item:hover {
+    background-color:white;
+    color:rgba(16,128,234,1);
+}
+
+.banner{
+    height:700px;
+    width:100%;
+    background-color:gray;
+    background-image:url('./images/banner.jpg');
+    background-size:cover;
+    color:white;
+}
+
+.overlay{
+    height: 700px;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    align-items:center;
+}
+
+.banner_text{
+    height: 350px;
+    width:50%;
+    background-color:rgba(16,128,234,0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items:center;
+}
+.banner_title{
+    font-size: 36px;
+    margin-bottom:15px;
+}
+.banner_desc{
+    margin-bottom:15px;
+}
+
+
+.padd{
+    padding:20px;
+    /* background-color:red; */
+
+}
+
+.banner_btn{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-transform: uppercase;
+    background-color:transparent;
+    color:white;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:3px solid white;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.banner_btn:hover{
+    background-color:white;
+    color:rgba(16,128,234,1);
+    transition:1s;
+}
+
+/* css for services */
+
+.services{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgb(201, 200, 200);
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services_container{
+    margin-top:45px;
+    justify-content:space-around;
+}
+
+.service{
+    height:400px;
+    width:40%;
+    background-color:white;
+    display:flex;
+}
+.service_img
+{
+    width:40%;
+    height:300px;
+    /* background-color:red; */
+    display:flex;
+    /* overflow:hidden; */
+}   
+
+}
+.service_details{
+    width:60%;
+    height:400px;
+    /* background-color:green; */
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+}
+
+.service_padd{
+    padding:20px;
+}
+.service_btn{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-transform: uppercase;
+    background-color:rgba(16,128,234,1);
+    /* color:white; */
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.service_title{
+    margin-bottom:15px;
+}
+.service_desc{
+    margin-bottom:30px;
+}
